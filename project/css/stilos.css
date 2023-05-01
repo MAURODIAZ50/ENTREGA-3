@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito:wght@200;300;400;600;700& display-swap');
+:root{
+
+    --green: #27ae60;
+    
+    --black: #2c2c54;
+    
+    }
+*{
+    font-family: 'Nunito', sans-serif;
+
+
+
+margin:0; padding:0;
+
+box-sizing: border-box;
+outline: NONE; 
+BORDER:NONE;
+text-decoration: none; 
+text-transform: capitalize; 
+transition: all .2s linear;
+
+}
+
+HTML{
+    FONT-SIZE:63%;
+    OVERFLOW-X:hidden;
+    scroll-behavior: smooth;
+}
+
+.header{
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    padding: 5rem 7%;
+    border-bottom: var(--border);
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.header .logo img {
+
+    height: 10rem;
+}
+
+
+
+body{
+    background-image: url("/imagenes/fondo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}   
+
+.header h1{
+
+    font-style: italic;
+
+
+}
+
+
+
+.header .navbar a{
+
+    margin: 0 1rem;
+    font-size: 1.6rem;
+    color: black;
+}
+
+.header .navbar a:hover{
+
+    color: var(--main-color);
+    border-bottom: .1rem solid var(--main-color);
+    padding-bottom: .5rem;
+}
+
+.header .icons div {
+
+    color: black;
+    cursor: pointer;
+    font-size: 3rem;
+    margin-left: 2rem;
+}
+
+.header .icons div:hover {
+
+    color: var(--main-color);
+}
+
+#main-container{
+
+    margin: 250px auto;
+    width: 800px;
+}
+
+table{
+    font-size: 1.5rem;
+    background-color: white;
+    width: 100%;
+    text-align: left;
+    border-collapse: collapse;
+}
+
+th, td{
+                                                    
+
+    border: solid 1px black;
+    padding: 20px;
+}
+
+thead{
+    background-color: cornflowerblue;
+    
+}
+
+tr:nth-child(even){
+
+    background-color: #ddd;
+}
+
+tr:hover td{
+    background-color: cornflowerblue;
+    color: white;
+}
